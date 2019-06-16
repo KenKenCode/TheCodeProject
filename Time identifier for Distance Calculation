@@ -1,0 +1,9 @@
+//import java.util.*;
+
+Date timeidentifierone = new Date();
+
+//put a label on the JFrame of the Distance calculation
+JLabel onelabel = new JLabel();
+String timetoword = String.toString(timeidentifierone);
+onelabel.setText(timetoword);
+
