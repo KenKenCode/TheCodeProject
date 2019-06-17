@@ -2,8 +2,12 @@
 
 Date timeidentifierone = new Date();
 
-//put a label on the JFrame of the Distance calculation
+//put a Jlabel on the JFrame of the Distance calculation determining the time 
 JLabel onelabel = new JLabel();
 String timetoword = String.toString(timeidentifierone);
 onelabel.setText(timetoword);
 
+//put another Jlabel on the JFrame of the Distance calculation determining the time-zone
+ZoneId timezoneidentifier = ZoneId.systemDefault();
+String timezonetoword = String.toString(timezoneidentifier);
+JLabel twolabel = new JLabel(timezonetoword);
