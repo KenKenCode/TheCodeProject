@@ -1,0 +1,27 @@
+import java.util.*;
+
+class mainoutputofwords {
+public static void main (String [] args{
+
+String [] wordone ={"Apple", "Oranges", "dimday", "dimnight" } ;
+String wordtwo ="" ;
+
+System.out.println(wordone);
+
+
+Scanner readNumbers = new Scanner (System.in);
+
+
+System.out.println("Please pick a choice from the list of available calculations") ;
+System.out.println("1. For standard calculation, 2. For scientific calculation"); 
+int choosingACalculation = readNumbers.nextInt();
+if (choosingACalculation == 1){
+try{
+int firstvalue = readNumbers.nextInt();
+
+} catch (Exception e) {
+System.out.println(null, e) ;
+} 
+} 
+}
+} 
