@@ -28,7 +28,7 @@ System.out.println("Pick an operation: 1. * 2. + 3. / 4. -");
 Scanner readOperation = new Scanner (System.in);
 int whatOperation = readOperation.nextInt();
 
-switch (whatOperation);
+switch (whatOperation){
 //1. * 2. + 3. / 4. -
 case 1: int resultMultiplication = readfirstValue * readsecondValue; //Multiplication
 System.out.println("Multiplication result: " + resultMultiplication);
@@ -42,6 +42,8 @@ System.out.println("Division result: " + resultDivision);
 case 4: int resultSubtraction = readfirstValue - readsecondValue;
 System.out.println("Subtraction result: " + resultSubtraction);
 
+default: System.out.println("Inavlid input");
+}
 }
 } catch (Exception e) {
 System.out.println(null, e) ;
