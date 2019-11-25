@@ -29,13 +29,19 @@ Scanner readOperation = new Scanner (System.in);
 int whatOperation = readOperation.nextInt();
 
 switch (whatOperation);
+//1. * 2. + 3. / 4. -
 case 1: int resultMultiplication = readfirstValue * readsecondValue; //Multiplication
 System.out.println("Multiplication result: " + resultMultiplication);
 
-case 2: 
+case 2: int resultAddition = readfirstValue + readsecondValue;
+System.out.println("Addition result: " + resultAddition);
 
+case 3: int resultDivision = readfirstValue / readsecondValue;
+System.out.println("Division result: " + resultDivision);
 
-int firstTotalStandard = 
+case 4: int resultSubtraction = readfirstValue - readsecondValue;
+System.out.println("Subtraction result: " + resultSubtraction);
+
 }
 } catch (Exception e) {
 System.out.println(null, e) ;
