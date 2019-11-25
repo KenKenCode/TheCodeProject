@@ -25,6 +25,16 @@ System.out.println("Input the second value");
 int readsecondValue = readNumbers.nextInt();
 System.out.println("Pick an operation: 1. * 2. + 3. / 4. -");
 //Use a switch case statement as of Nov 25, 2019
+Scanner readOperation = new Scanner (System.in);
+int whatOperation = readOperation.nextInt();
+
+switch (whatOperation);
+case 1: int resultMultiplication = readfirstValue * readsecondValue; //Multiplication
+System.out.println("Multiplication result: " + resultMultiplication);
+
+case 2: 
+
+
 int firstTotalStandard = 
 }
 } catch (Exception e) {
