@@ -32,16 +32,16 @@ switch (whatOperation){
 //1. * 2. + 3. / 4. -
 case 1: int resultMultiplication = readfirstValue * readsecondValue; //Multiplication
 System.out.println("Multiplication result: " + resultMultiplication);
-
+break;
 case 2: int resultAddition = readfirstValue + readsecondValue;
 System.out.println("Addition result: " + resultAddition);
-
+break;
 case 3: int resultDivision = readfirstValue / readsecondValue;
 System.out.println("Division result: " + resultDivision);
-
+break;
 case 4: int resultSubtraction = readfirstValue - readsecondValue;
 System.out.println("Subtraction result: " + resultSubtraction);
-
+break;
 default: System.out.println("Inavlid input");
 }
 }
