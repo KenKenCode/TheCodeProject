@@ -18,7 +18,15 @@ int choosingACalculation = readNumbers.nextInt();
 if (choosingACalculation == 1){
 try{
 int firstvalue = readNumbers.nextInt();
+if (firstvalue == 1) {
+System.out.println("Input the first value");
+int readfirstValue = readNumbers.nextInt();
+System.out.println("Input the second value");
+int readsecondValue = readNumbers.nextInt();
+System.out.println("Pick an operation: 1. * 2. + 3. / 4. -");
 
+int firstTotalStandard = 
+}
 } catch (Exception e) {
 System.out.println(null, e) ;
 } 
